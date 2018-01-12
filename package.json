@@ -1,0 +1,17 @@
+{
+  "name": "elm-amazon-dynamodb",
+  "version": "1.0.0",
+  "description": "Pure Elm client to Amazon DynamoDB",
+  "main": "index.js",
+  "scripts": {
+    "dynamo": "local-dynamo",
+    "test": "elm-test"
+  },
+  "author": "ymtszw",
+  "license": "BSD-3-Clause",
+  "devDependencies": {
+    "elm": "^0.18.0",
+    "elm-test": "^0.18.12",
+    "local-dynamo": "github:ymtszw/local-dynamo#add_shebang_in_bin_script"
+  }
+}
